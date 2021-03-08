@@ -12,4 +12,7 @@ chown -R mobian.mobian ~/.ssh
 ```
 
 - Install `ip` on the phone (`sudo apt install iproute2`) to determine local IP address using `ip addr`.
+
+- Install ssh server `sudo apt install openssh-server`.
+- `sudo systemctl start ssh`
 - Connect from desktop: `ssh mobian@LOCAL_IP_ADDRESS`
